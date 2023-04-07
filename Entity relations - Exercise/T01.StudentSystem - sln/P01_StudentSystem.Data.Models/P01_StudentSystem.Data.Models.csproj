@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>P01_StudentSystem.Data.Models</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P01_StudentSystem.Data.Common\P01_StudentSystem.Data.Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Enumerators\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enumerators\" />
+  </ItemGroup>
+</Project>
