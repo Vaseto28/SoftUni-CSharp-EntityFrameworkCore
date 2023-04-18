@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P02_FootballBetting.Common\P02_FootballBetting.Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Enumerators\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enumerators\" />
+  </ItemGroup>
+</Project>
